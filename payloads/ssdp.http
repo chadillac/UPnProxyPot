@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=120
+ST: upnp:rootdevice
+USN: uuid:fc4ec57e-b051-11db-88f8-0060085db3f6::upnp:rootdevice
+EXT:
+SERVER: Net-OS 5.xx UPnP/1.0
+LOCATION: http://192.168.0.1:2048/etc/linuxigd/gatedesc.xml

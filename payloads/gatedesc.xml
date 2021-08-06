@@ -1,0 +1,71 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Connection: close
+Content-Length: 2681
+Server: Net-OS 5.xx UPnP/1.0
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion><device>
+<deviceType>urn:schemas-upnp-org:device:InternetGatewayDevice:1</deviceType>
+<friendlyName>EFM Networks ipTIME N104R</friendlyName>
+<manufacturer>EFM Networks</manufacturer>
+<manufacturerURL>www.iptime.co.kr</manufacturerURL>
+<modelDescription>EFM Networks ipTIME N104R</modelDescription>
+<modelName>ipTIME N104R</modelName>
+<modelNumber>1</modelNumber>
+<modelURL>www.iptime.co.kr</modelURL>
+<serialNumber>12345678</serialNumber>
+<presentationURL>http://192.168.0.1/</presentationURL>
+<UDN>uuid:fc4ec57e-b051-11db-88f8-0060085db3f6</UDN>
+<serviceList>
+<service>
+<serviceType>urn:schemas-dummy-com:service:Dummy:1</serviceType>
+<serviceId>urn:dummy-com:serviceId:dummy1</serviceId>
+<controlURL>/dummy</controlURL>
+<eventSubURL>/dummy</eventSubURL>
+<SCPDURL>/etc/linuxigd/dummy.xml</SCPDURL>
+</service></serviceList><deviceList>
+<device>
+<deviceType>urn:schemas-upnp-org:device:WANDevice:1</deviceType>
+<friendlyName>WANDevice</friendlyName>
+<manufacturer>UPnP</manufacturer>
+<manufacturerURL>www.iptime.co.kr</manufacturerURL>
+<modelDescription>WAN Device</modelDescription>
+<modelName>WAN Device</modelName>
+<modelNumber>20090617</modelNumber>
+<modelURL>www.iptime.co.kr</modelURL>
+<serialNumber>12345678</serialNumber>
+<UDN>uuid:fc4ec57e-b051-11db-88f8-0060085db3f6</UDN>
+<UPC>UPNPD</UPC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:WANCommonIFC1</serviceId>
+<controlURL>/etc/linuxigd/gateicfgSCPD.ctl</controlURL>
+<eventSubURL>/etc/linuxigd/gateicfgSCPD.evt</eventSubURL>
+<SCPDURL>/etc/linuxigd/gateicfgSCPD.xml</SCPDURL>
+</service></serviceList><deviceList>
+<device>
+<deviceType>urn:schemas-upnp-org:device:WANConnectionDevice:1</deviceType>
+<friendlyName>WANConnectionDevice</friendlyName>
+<manufacturer>UPnP</manufacturer>
+<manufacturerURL>www.iptime.co.kr</manufacturerURL>
+<modelDescription>UPnP daemon</modelDescription>
+<modelName>UPnPd</modelName>
+<modelNumber>20090617</modelNumber>
+<modelURL>www.iptime.co.kr</modelURL>
+<serialNumber>12345678</serialNumber>
+<UDN>uuid:fc4ec57e-b051-11db-88f8-0060085db3f6</UDN>
+<UPC>UPNPD</UPC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:WANIPConnection:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:WANIPConn1</serviceId>
+<controlURL>/etc/linuxigd/gateconnSCPD.ctl</controlURL>
+<eventSubURL>/etc/linuxigd/gateconnSCPD.evt</eventSubURL>
+<SCPDURL>/etc/linuxigd/gateconnSCPD.xml</SCPDURL>
+</service></serviceList></device></deviceList></device></deviceList></device></root>

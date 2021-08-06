@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Connection: close
+Content-Length: 188
+Server: Net-OS 5.xx UPnP/1.0
+
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0"> <specVersion>    <major>1</major>    <minor>0</minor>  </specVersion>  <actionList />  <serviceStateTable /></scpd>

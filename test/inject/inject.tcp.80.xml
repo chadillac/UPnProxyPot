@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<m:AddPortMapping xmlns:m="urn:schemas-upnp-org:service:WANIPConnection:1">
+<NewPortMappingDescription>the description is-here</NewPortMappingDescription>
+<NewLeaseDuration>1</NewLeaseDuration>
+<NewInternalClient>23.202.87.23</NewInternalClient>
+<NewEnabled>1</NewEnabled>
+<NewExternalPort>11111</NewExternalPort>
+<NewRemoteHost></NewRemoteHost>
+<NewProtocol>TCP</NewProtocol>
+<NewInternalPort>80</NewInternalPort>
+</m:AddPortMapping>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

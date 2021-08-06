@@ -1,0 +1,2 @@
+[upnproxy]
+#YOUR_IP ansible_user=yourusername
