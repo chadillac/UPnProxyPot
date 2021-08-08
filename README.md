@@ -2,6 +2,13 @@
 An SSDP & UPNP honeypot implementation aimed at intercepting/tracking UPnProxy campaigns.  Presented at Defcon 29, you can watch that presentation here:
 https://www.youtube.com/watch?v=mHCGNUsrTf0
 
+### previous research
+#### UPnProxy OG research: 
+https://www.akamai.com/us/en/multimedia/documents/white-paper/upnproxy-blackhat-proxies-via-nat-injections-white-paper.pdf
+
+#### UPnProxy: EternalSilence: 
+https://blogs.akamai.com/sitr/2018/11/upnproxy-eternalsilence.html
+
 ------------
 
 ### Dependencies
